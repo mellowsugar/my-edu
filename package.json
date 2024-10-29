@@ -9,8 +9,8 @@
   },
   "type": "module",
   "scripts": {
-    "build-storybook": "storybook build",
     "build": "vite build",
+    "build-storybook": "storybook build",
     "dev": "vite",
     "postinstall": "pnpm dlx sort-package-json \"package.json\"",
     "lint": "eslint --cache ./",
